@@ -3,23 +3,10 @@ uses: chrnorm/deployment-action@v2.0.5
 permissions:
       deployments: write
 deployments:
-  environmentMapping:
+  environment-mapping:
     development:
-      - "dev*"
-      - "Entwicklung"
-      - "desenvolvimento"
-      - "дев"
+      - ".*-unstable"
     testing:
-      - "testes"
-      - "Test"
-      - "TST-*"
-      - "тест"
-    staging:
-      - "Pre-Prod"
-      - "STG-*"
-      - "staging"
+      - ".*-testing"
     production:
-      - "Produktion"
-      - "produção"
-      - "продакшн"
-      - "PROD-*"
+      - ".*-stable"
