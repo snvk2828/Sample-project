@@ -9,4 +9,4 @@ deployments:
     testing:
       - ".*-testing"
     production:
-      - ".*-stable"
+      - "*.*-stable"
