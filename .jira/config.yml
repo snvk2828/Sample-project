@@ -5,8 +5,8 @@ permissions:
 deployments:
   environmentMapping:
     development:
-      - ".*-unstable"
+      - "*-unstable"
     testing:
-      - ".*-testing"
+      - "*-testing"
     production:
-      - "*.*-stable"
+      - "*-stable"
