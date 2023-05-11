@@ -3,7 +3,7 @@ uses: chrnorm/deployment-action@v2.0.5
 permissions:
       deployments: write
 deployments:
-  environment-mapping:
+  environmentMapping:
     development:
       - ".*-unstable"
     testing:
