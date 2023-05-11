@@ -1,12 +1,21 @@
-name: Deployment Action
-uses: chrnorm/deployment-action@v2.0.5
-permissions:
-      deployments: write
 deployments:
   environmentMapping:
     development:
-      - "*-unstable"
+      - "dev*"
+      - "Entwicklung"
+      - "desenvolvimento"
+      - "дев"
     testing:
-      - "*-testing"
+      - "testes"
+      - "Test"
+      - "TST-*"
+      - "тест"
+    staging:
+      - "Pre-Prod"
+      - "STG-*"
+      - "staging"
     production:
-      - "*-stable"
+      - "Produktion"
+      - "produção"
+      - "продакшн"
+      - "PROD-*"
