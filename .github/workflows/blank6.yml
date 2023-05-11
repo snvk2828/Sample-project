@@ -31,5 +31,5 @@ jobs:
         with:
           token: '${{ github.token }}'
           environment-url: http://test-app
-          environment: 10.25-stable
+          environment: 10.27-stable
         # more steps below where you run your deployment scripts inside the same action
