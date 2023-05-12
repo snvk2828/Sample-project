@@ -31,5 +31,5 @@ jobs:
         with:
           token: '${{ github.token }}'
           environment-url: http://test-app
-          environment: dev1
+          environment: staging
         # more steps below where you run your deployment scripts inside the same action
