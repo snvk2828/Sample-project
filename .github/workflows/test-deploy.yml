@@ -31,5 +31,5 @@ jobs:
         with:
           token: '${{ github.token }}'
           environment-url: 
-          environment: production
+          environment: support-trunk
         # more steps below where you run your deployment scripts inside the same action
